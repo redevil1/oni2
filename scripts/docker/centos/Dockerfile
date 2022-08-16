@@ -27,6 +27,7 @@ RUN yum -y install nasm
 RUN yum -y install https://repo.ius.io/ius-release-el7.rpm
 
 RUN yum -y install epel-release
+RUN yum -y install git216
 
 
 # 3706 - install gsettings-settings-daemon:
